@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cf_noreply_time_display">
+        <item>05 секунд</item>
+        <item>10 секунд</item>
+        <item>15 секунд</item>
+        <item>20 секунд</item>
+        <item>25 секунд</item>
+        <item>30 секунд</item>
+    </string-array>
+    <string-array name="language_list_values">
+        <item>Всі мови</item>
+        <item>Німецька</item>
+        <item>Англійська</item>
+        <item>Італійська</item>
+        <item>Французька</item>
+        <item>Іспанська</item>
+        <item>Датська</item>
+        <item>Швецька</item>
+        <item>Данська</item>
+        <item>Португальска</item>
+        <item>Finnish</item>
+        <item>Norwegian</item>
+        <item>Greek</item>
+        <item>Turkish</item>
+        <item>Hungarian</item>
+        <item>Polish</item>
+        <item>Others</item>
+        <item>Czech</item>
+        <item>Hebrew</item>
+        <item>Arabic</item>
+        <item>Russian</item>
+        <item>IceLandic</item>
+    </string-array>
+    <string-array name="plmn_prefer_network_mode_choices">
+        <item>GSM</item>
+        <item>WCDMA</item>
+        <item>Dual mode</item>
+    </string-array>
+    <string-array name="plmn_prefer_network_mode_td_choices">
+        <item>GSM</item>
+        <item>TD-SCDMA</item>
+        <item>Dual mode</item>
+    </string-array>
+    <string-array name="plmn_prefer_network_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA (авто)</item>
+        <item>Тільки WCDMA</item>
+        <item>Тільки GSM</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_values">
+        <item>0</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_cmcc">
+        <item>GSM/WCDMA (авто)</item>
+        <item>TD-SCDMA only</item>
+        <item>GSM only</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_values_cmcc">
+        <item>0</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="umts_network_preferences_choices">
+        <item>GSM/WCDMA (авто)</item>
+        <item>Тільки WCDMA</item>
+    </string-array>
+    <string-array name="umts_network_preferences_values">
+        <item>0</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="umts_network_preferences_choices_cmcc">
+        <item>GSM/TD-SCDMA (auto mode)</item>
+        <item>TD-SCDMA only</item>
+    </string-array>
+    <string-array name="call_reject_mode_entries">
+        <item>Off</item>
+        <item>All numbers</item>
+        <item>Auto reject list</item>
+    </string-array>
+    <string-array name="call_reject_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="call_reject_dialog_array">
+        <item>Contacts</item>
+        <item>Call logs</item>
+    </string-array>
+    <string-array name="clir_display_values">
+        <item>Налаштування мережі за умовчанням</item>
+        <item>Сховати номер</item>
+        <item>Показ. номер</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>LTE/CDMA</item>
+        <item>Лише EvDo</item>
+        <item>CDMA без EvDo</item>
+        <item>Авто CDMA/EvDo</item>
+        <item>Авто GSM/WCDMA</item>
+        <item>Лише WCDMA</item>
+        <item>Лише GSM</item>
+        <item>Бажано GSM/WCDMA</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_lte">
+        <item>LTE/CDMA</item>
+        <item>CDMA</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>Англійська</item>
+        <item>Французька</item>
+        <item>Іспанська</item>
+        <item>Японська</item>
+        <item>Корейська</item>
+        <item>Китайська</item>
+        <item>Іврит</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Лише Головна</item>
+        <item>Автоматично</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>TTY вимк.</item>
+        <item>TTY повн.</item>
+        <item>HCO TTY</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Звичайний</item>
+        <item>Довгий</item>
+    </string-array>
+    <string-array name="voicemail_notification_vibrate_when_entries">
+        <item>Завжди</item>
+        <item>Лише в беззвучному режимі</item>
+        <item>Ніколи</item>
+    </string-array>
+</resources>

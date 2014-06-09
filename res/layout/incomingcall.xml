@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/banner_button_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/incomingCallSwitchButton" android:src="@drawable/icon_fullscreen" style="@style/BannerInCallButtonLeft" />
+        <View style="@style/BannerVerticalSeparator" />
+        <ImageButton android:id="@id/answerButton" android:src="@drawable/banner_icon_answer" android:contentDescription="@string/onscreenSwapCallsText" style="@style/BannerInCallButtonMiddle" />
+        <View android:id="@id/smsButtonSeparator" style="@style/BannerVerticalSeparator" />
+        <ImageButton android:id="@id/messageButton" android:src="@drawable/banner_btn_message" android:contentDescription="@string/onscreenSwapCallsText" style="@style/BannerInCallButtonMiddle" />
+        <View style="@style/BannerVerticalSeparator" />
+        <ImageButton android:id="@id/declineButton" android:src="@drawable/banner_icon_hangup" android:contentDescription="@string/onscreenSwapCallsText" style="@style/BannerInCallButtonRight" />
+    </LinearLayout>
+    <com.android.phone.UnlockDialog android:id="@id/answerUnlock" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <com.android.phone.UnlockDialog android:id="@id/declineUnlock" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+</RelativeLayout>
